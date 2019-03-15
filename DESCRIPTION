@@ -1,0 +1,45 @@
+Package: BiocPublicDataWorkshop2019
+Type: Package
+Title: Accessing public data using Bioconductor
+Version: 0.1.0
+Authors@R: c(person("Levi", "Waldron", email = "levi.waldron@sph.cuny.edu", role = c("aut")),
+    person("Benjamin", "Haibe-Kains", email = "benjamin.haibe.kains@utoronto.ca", role = c("aut")),
+    person("Sean", "Davis", email = "seandavi@gmail.com", role = c("aut", "cre")))
+Maintainer: Sean Davis <seandavi@gmail.com>
+Description: The goal of this workshop is to introduce Bioconductor packages for finding,
+    accessing, and using large-scale public data resources including the
+    Gene Expression Omnibus [GEO](https://www.ncbi.nlm.nih.gov/geo), Sequence
+    Read Archive [SRA](https://www.ncbi.nlm.nih.gov/sra), the Genomic Data
+    Commons [GDC](https://portal.gdc.cancer.gov/), and Bioconductor-hosted
+    curated data resources for metagenomics, pharmacogenomics [PharmacoDB](http://pharmacodb.ca/), and The Cancer
+    Genome Atlas.
+Suggests:
+  BiocStyle, knitr, rmarkdown,
+  TCGAbiolinks,
+  GEOquery,
+  GenomicDataCommons,
+  limma,
+  curatedTCGAData,
+  recount,
+  curatedMetagenomicData,
+  phyloseq,
+  HMP16SData,
+  caTools,
+  piano,
+  isa,
+  VennDiagram,
+  downloader,
+	gdata,
+	AnnotationDbi,
+	hgu133a.db,
+  PharmacoGx
+remotes:
+  seandavi/SRAdbV2,
+  seandavi/OmicIDXR,
+  seandavi/BiocPkgTools,
+  bhklab/mCI,
+  bhklab/PharmacoGxML
+VignetteBuilder: knitr
+License: MIT
+Encoding: UTF-8
+LazyData: true
